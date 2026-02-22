@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Discreet Gemini",
+  "version": "1.0",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.loader.js" },
+  "commands": {
+    "ask-gemini": {
+      "suggested_key": { "default": "Ctrl+Shift+E", "mac": "Command+Shift+E" },
+      "description": "Ask Gemini about selected text"
+    },
+    "hide-popup": {
+      "suggested_key": { "default": "Ctrl+E", "mac": "Command+E" },
+      "description": "Hide the Gemini popup"
+    }
+  }
+}

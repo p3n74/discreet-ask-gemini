@@ -1,0 +1,8 @@
+{
+  "name": "ask-gemini",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "config": "node scripts/generate-config.js"
+  }
+}

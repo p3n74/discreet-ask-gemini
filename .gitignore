@@ -1,0 +1,4 @@
+.env
+config.js
+background.loader.js
+node_modules
